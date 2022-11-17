@@ -11,9 +11,9 @@
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 
 
-const char* ssid     = "Guranova";
-const char* password = "18rokovAkrokov8";
-String APIKEY = "c3238a87b39de7273824b1adcfa6d7f2";
+const char* ssid     = "Your Network Name";
+const char* password = "Network Password";
+String APIKEY = "Your API key";
 String CityID = "3058780";          //ID Mesta
 bool id = false;
 WiFiClient client;
