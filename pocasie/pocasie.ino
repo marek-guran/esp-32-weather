@@ -12,7 +12,7 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 
 
 const char* ssid     = "Your Network Name";
-const char* password = "Network Password";
+const char* password = "Your Network Password";
 String APIKEY = "Your API key";
 String CityID = "3058780";          //ID Mesta
 bool id = false;
